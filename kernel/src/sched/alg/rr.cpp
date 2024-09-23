@@ -15,8 +15,18 @@
 using namespace stacsos::kernel::sched;
 using namespace stacsos::kernel::sched::alg;
 
-void round_robin::add_to_runqueue(tcb &tcb) { panic("TODO"); }
+void round_robin::add_to_runqueue(tcb &tcb) {
+	tcb_list.append(&tcb);
+}
 
-void round_robin::remove_from_runqueue(tcb &tcb) { panic("TODO"); }
+void round_robin::remove_from_runqueue(tcb &tcb) {
+	tcb_list.remove(&tcb);
+}
 
-tcb *round_robin::select_next_task(tcb *current) { panic("TODO"); }
+tcb *round_robin::select_next_task(tcb *current) {
+	if (tcb_list.empty()) {
+		return nullptr;
+	}
+
+	return tcb_list.first();
+}
