@@ -28,5 +28,9 @@ tcb *round_robin::select_next_task(tcb *current) {
 		return nullptr;
 	}
 
+	tcb *first = tcb_list.first();
+	tcb_list.remove(first);
+	tcb_list.append(first);
+
 	return tcb_list.first();
 }
