@@ -31,5 +31,5 @@ tcb *round_robin::select_next_task(tcb *current) {
 	tcb *first = tcb_list.dequeue();
 	tcb_list.enqueue(first);
 
-	return tcb_list.first();
+	return first;
 }
