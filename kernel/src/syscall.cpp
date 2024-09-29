@@ -102,6 +102,24 @@ extern "C" syscall_result handle_syscall(syscall_numbers index, u64 arg0, u64 ar
 		return operation_result_to_syscall_result(o->read((void *)arg1, arg2));
 	}
 
+	case syscall_numbers::pread: {
+		auto o = object_manager::get().get_object(current_process, arg0);
+		if (!o) {
+			return syscall_result { syscall_result_code::not_found, 0 };
+		}
+
+		return operation_result_to_syscall_result(o->pread((void *)arg1, arg2, arg3));
+	}
+
+	case syscall_numbers::ioctl: {
+		auto o = object_manager::get().get_object(current_process, arg0);
+		if (!o) {
+			return syscall_result { syscall_result_code::not_found, 0 };
+		}
+
+		return operation_result_to_syscall_result(o->ioctl(arg1, (void *)arg2, arg3));
+	}
+
 	case syscall_numbers::alloc_mem: {
 		auto rgn = current_thread.owner().addrspace().alloc_region(PAGE_ALIGN_UP(arg0), region_flags::readwrite, true);
 
@@ -138,8 +156,20 @@ extern "C" syscall_result handle_syscall(syscall_numbers index, u64 arg0, u64 ar
 		return syscall_result { syscall_result_code::ok, object_manager::get().create_thread_object(current_process, new_thread)->id() };
 	}
 
+	case syscall_numbers::stop_current_thread: {
+		current_thread.stop();
+		asm volatile("int $0xff");
+
+		return syscall_result { syscall_result_code::ok, 0 };
+	}
+
 	case syscall_numbers::join_thread: {
-		return syscall_result { syscall_result_code::not_supported, 0 };
+		auto thread_object = object_manager::get().get_object(current_process, arg0);
+		if (!thread_object) {
+			return syscall_result { syscall_result_code::not_found, 0 };
+		}
+
+		return operation_result_to_syscall_result(thread_object->join());
 	}
 
 	case syscall_numbers::sleep: {

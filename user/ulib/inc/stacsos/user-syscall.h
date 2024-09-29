@@ -58,6 +58,18 @@ public:
 		return rw_result { r.code, r.data };
 	}
 
+	static rw_result pread(u64 object, void *buffer, u64 length, size_t offset)
+	{
+		auto r = syscall4(syscall_numbers::pread, object, (u64)buffer, length, offset);
+		return rw_result { r.code, r.data };
+	}
+
+	static rw_result ioctl(u64 object, u64 cmd, void *buffer, u64 length)
+	{
+		auto r = syscall4(syscall_numbers::ioctl, object, cmd, (u64)buffer, length);
+		return rw_result { r.code, r.data };
+	}
+
 	static alloc_result alloc_mem(u64 size)
 	{
 		auto r = syscall1(syscall_numbers::alloc_mem, size);
@@ -69,6 +81,7 @@ public:
 
 	static syscall_result start_thread(void *entrypoint, void *arg) { return syscall2(syscall_numbers::start_thread, (u64)entrypoint, (u64)arg); }
 	static syscall_result join_thread(u64 id) { return syscall1(syscall_numbers::join_thread, id); }
+	static syscall_result stop_current_thread() { return syscall0(syscall_numbers::stop_current_thread); }
 
 	static syscall_result sleep(u64 ms) { return syscall1(syscall_numbers::sleep, ms); }
 

@@ -7,6 +7,7 @@
  */
 #include <stacsos/kernel/arch/core-manager.h>
 #include <stacsos/kernel/arch/x86/x86-platform.h>
+#include <stacsos/kernel/config.h>
 #include <stacsos/kernel/debug.h>
 #include <stacsos/kernel/dev/console/physical-console.h>
 #include <stacsos/kernel/dev/console/virtual-console.h>
@@ -16,11 +17,12 @@
 #include <stacsos/kernel/dev/input/keyboard.h>
 #include <stacsos/kernel/dev/storage/ahci-storage-device.h>
 #include <stacsos/kernel/dev/tty/terminal.h>
+#include <stacsos/kernel/dev/misc/cmos-rtc.h>
 #include <stacsos/kernel/fs/filesystem.h>
 #include <stacsos/kernel/fs/vfs.h>
 #include <stacsos/kernel/mem/memory-manager.h>
 #include <stacsos/kernel/sched/process-manager.h>
-#include <stacsos/kernel/config.h>
+#include <stacsos/memops.h>
 
 using namespace stacsos::kernel;
 using namespace stacsos::kernel::fs;
@@ -30,11 +32,15 @@ using namespace stacsos::kernel::dev::gfx;
 using namespace stacsos::kernel::dev::console;
 using namespace stacsos::kernel::dev::tty;
 using namespace stacsos::kernel::dev::input;
+using namespace stacsos::kernel::dev::misc;
 using namespace stacsos::kernel::sched;
 
 static void init_console()
 {
 	auto &dm = device_manager::get();
+
+	auto rtc = new cmos_rtc(dm.sysbus());
+	dm.register_device(*rtc);
 
 	auto kbd = new keyboard(dm.sysbus());
 	dm.register_device(*kbd);
@@ -43,7 +49,13 @@ static void init_console()
 
 	dm.register_device(*phys_console);
 
-	auto vc0 = new virtual_console(dm.sysbus(), virtual_console_mode::text);
+	const char *console_mode_option = config::get().get_option("console-mode");
+	virtual_console_mode console_mode = virtual_console_mode::text;
+	if (console_mode_option && stacsos::memops::strcmp(config::get().get_option("console-mode"), "gfx") == 0) {
+		console_mode = virtual_console_mode::gfx;
+	}
+
+	auto vc0 = new virtual_console(dm.sysbus(), console_mode);
 	dm.register_device(*vc0);
 
 	auto tty0 = new terminal(dm.sysbus());
@@ -51,7 +63,7 @@ static void init_console()
 	dm.register_device(*tty0);
 	dm.add_device_alias(*tty0, "console");
 
-	auto vc1 = new virtual_console(dm.sysbus(), virtual_console_mode::text);
+	auto vc1 = new virtual_console(dm.sysbus(), console_mode);
 	dm.register_device(*vc1);
 
 	auto tty1 = new terminal(dm.sysbus());
