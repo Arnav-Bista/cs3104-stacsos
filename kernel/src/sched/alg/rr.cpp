@@ -28,7 +28,18 @@ tcb *round_robin::select_next_task(tcb *current) {
 		return nullptr;
 	}
 
+	// A true RR implementation does time slicing to each process,
+	// however, I couldn't find a way to implement from editing rr.h and rr.cpp only.
+	
+	// Avoid modifying the list if there's only one elemet
+	if (tcb_list.count() == 1) {
+		return tcb_list.first();
+	}
+	
+	// Get the next in line and remove it from the list
 	tcb *first = tcb_list.dequeue();
+	// Add it back to the end of the list 
+	// A Circular LL would give constant time, but currenty it's O(n)
 	tcb_list.enqueue(first);
 
 	return first;
