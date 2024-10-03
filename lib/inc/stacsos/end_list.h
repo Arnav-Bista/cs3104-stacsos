@@ -15,7 +15,7 @@ public:
 
 	~end_list()
 	{
-		delete last_;
+		// delete last_;
 		node *current = head_;
 		while (current) {
 			node *next = current->next;
@@ -30,9 +30,10 @@ public:
 
 	T dequeue()
 	{
+		
 		count_--;
 		node *front = head_;
-		node *ret = head_;
+		T ret = head_->data;
 		head_ = head_->next;
 		delete front;
 		if (count_ == 0) {
@@ -65,16 +66,16 @@ public:
 		node **prev = &head_;
 
 		while (*slot && (*slot)->data != elem) {
-			slot = &(*slot)->next;
 			prev = slot;
+			slot = &(*slot)->next;
 		}
 		
 		if (*slot) {
 			node *candidate = *slot;
-			*slot = candidate->next;
 			if (*slot == last_) {
-				last_ = prev;
+				last_ = *prev;
 			}
+			*slot = candidate->next;
 			delete candidate;
 			count_--;
 		}
