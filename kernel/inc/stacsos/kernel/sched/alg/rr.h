@@ -7,7 +7,7 @@
  */
 #pragma once
 
-#include "stacsos/list.h"
+#include "stacsos/end_list.h"
 #include <stacsos/kernel/sched/alg/scheduling-algorithm.h>
 
 namespace stacsos::kernel::sched::alg {
@@ -17,7 +17,7 @@ namespace stacsos::kernel::sched::alg {
 
 class round_robin : public scheduling_algorithm {
 private:
-	list<tcb *> tcb_list;
+	end_list<tcb *> tcb_list;
 
 public:
 	virtual void add_to_runqueue(tcb &tcb) override;

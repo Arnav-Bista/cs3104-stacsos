@@ -16,7 +16,7 @@ using namespace stacsos::kernel::sched;
 using namespace stacsos::kernel::sched::alg;
 
 void round_robin::add_to_runqueue(tcb &tcb) {
-	tcb_list.append(&tcb);
+	tcb_list.enqueue(&tcb);
 }
 
 void round_robin::remove_from_runqueue(tcb &tcb) {
