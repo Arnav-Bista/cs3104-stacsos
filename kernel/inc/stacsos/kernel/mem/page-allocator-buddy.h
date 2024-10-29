@@ -43,5 +43,11 @@ private:
 
 	void split_block(int order, page &block_start);
 	void merge_buddies(int order, page &buddy);
+	/*
+	 * Given a page and the order,
+	 * return the block which constains the page.
+	 * Otherwise return a nullptr
+	 */
+	page *get_block_from_page(int order, page &target);
 };
 } // namespace stacsos::kernel::mem
