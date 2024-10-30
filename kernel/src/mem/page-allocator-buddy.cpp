@@ -44,6 +44,7 @@ void page_allocator_buddy::insert_pages(page &range_start, u64 page_count)
 		}
 		order -= 1;
 		insert_free_block(order, *slot);
+		merge_buddies(order, *slot);
 		// Pointer Arithemtic under the hood
 		// Since a page is 2 ^ 12, it'll automatically scale it.
 		slot += 1 << order;
@@ -74,6 +75,7 @@ void page_allocator_buddy::remove_pages(page &range_start, u64 page_count)
 		bool found = false;
 		for (int order = LastOrder; order >= 0; order--) {
 			page *block = get_block_from_page(order, *current);
+			u64 size = pages_per_block(order);
 			if (block == nullptr) {
 				continue;
 			}
@@ -83,10 +85,10 @@ void page_allocator_buddy::remove_pages(page &range_start, u64 page_count)
 			// Inside the Block
 
 			// Entire Block
-			if (block->pfn() == current_pfn && pages_remaining >= (1 << order)) {
+			if (block->pfn() == current_pfn && pages_remaining >= size) {
 				remove_free_block(order, *current);
-				current += 1 << order;
-				pages_remaining -= 1 << order;
+				current += size;
+				pages_remaining -= size;
 			}
 			// Inside the block
 			else if (order > 0) {
@@ -148,7 +150,7 @@ void page_allocator_buddy::split_block(int order, page &block_start)
 {
 	// Find the halfway point between the pages and insert them into the previous order
 	page *block_1 = &block_start;
-	page *block_2 = &page::get_from_pfn(block_1->pfn() + (1ULL << (order - 1)));
+	page *block_2 = &page::get_from_pfn(block_1->pfn() + (pages_per_block(order) >> 1));
 	remove_free_block(order, *block_1);
 	insert_free_block(order - 1, *block_1);
 	insert_free_block(order - 1, *block_2);
@@ -156,9 +158,11 @@ void page_allocator_buddy::split_block(int order, page &block_start)
 
 void page_allocator_buddy::merge_buddies(int order, page &buddy)
 {
-	while (order <= LastOrder) {
-		u64 target_pfn = buddy.pfn() ^ (1 << order);
-		page *target = free_list_[order];
+	int current_order = order;
+	page *current_buddy = &buddy;
+	while (current_order < LastOrder) {
+		u64 target_pfn = current_buddy->pfn() ^ pages_per_block(current_order);
+		page *target = free_list_[current_order];
 		while (target && target->pfn() != target_pfn) {
 			target = target->next_free_;
 		}
@@ -167,34 +171,35 @@ void page_allocator_buddy::merge_buddies(int order, page &buddy)
 			return;
 		}
 
-		remove_free_block(order, *target);
-		if (target_pfn > buddy.pfn()) {
-			insert_free_block(order, buddy);
-		} else {
-			insert_free_block(order, *target);
-		}
-		order += 1;
+		remove_free_block(current_order, *current_buddy);
+		remove_free_block(current_order, *target);
+		
+		current_buddy = current_buddy->pfn() < target_pfn ? current_buddy : target;
+		insert_free_block(current_order + 1, *current_buddy);
+		current_order += 1;
 	}
 }
 
-page *page_allocator_buddy::allocate_pages(int order, page_allocation_flags flags) {
+page *page_allocator_buddy::allocate_pages(int order, page_allocation_flags flags)
+{
 	int current_order = order;
 	page *block = free_list_[order];
 	while (!block) {
 		block = free_list_[current_order];
 		current_order += 1;
 	}
-	
+
 	while (current_order > order) {
 		split_block(current_order, *block);
-		current_order -=1;
+		current_order -= 1;
 	}
 
 	remove_free_block(order, *block);
 	return block;
 }
 
-void page_allocator_buddy::free_pages(page &block_start, int order) {
+void page_allocator_buddy::free_pages(page &block_start, int order)
+{
 	insert_free_block(order, block_start);
 	merge_buddies(order, block_start);
 }
