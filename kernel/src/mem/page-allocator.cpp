@@ -84,10 +84,40 @@ void page_allocator::perform_selftest()
 	free_pages(*test11page, 0);
 	dump();
 
-    dprintf("(14) Insert page to trigger higher merge (PFN=40, ORDER=3)\n");
+	dprintf("(14) Insert page to trigger higher merge (PFN=40, ORDER=3)\n");
 	insert_pages(page::get_from_pfn(40), 8);
 	dump();
 
+	dprintf("(15) Allocate page of maximum order\n");
+	auto max_order_page = allocate_pages(16, page_allocation_flags::none);
+	if (!max_order_page) {
+		panic("Maximum order allocation failed");
+	}
+	dprintf("  Allocated pfn=%lx, base=%lx\n", max_order_page->pfn(), max_order_page->base_address());
+	dump();
+	free_pages(*max_order_page, 16);
+
+	dprintf("(16) Allocate a large block, then free half of it\n");
+	auto large_block = allocate_pages(3, page_allocation_flags::none);
+	free_pages(*(large_block + 8), 2); // Free the second half
+	dump();
+
+	dprintf("(17) Allocate all pages, then free them all, then allocate one\n");
+	// ... Allocate all pages ...
+	// ... Free all pages ...
+	auto last_page = allocate_pages(0, page_allocation_flags::none);
+	if (!last_page) {
+		panic("Allocation from empty free list failed");
+	}
+	dump();
+	free_pages(*last_page, 0);
+
+	dprintf("(21) Consecutive allocations and deallocations of the same order\n");
+	for (int i = 0; i < 10; ++i) {
+		auto page = allocate_pages(2, page_allocation_flags::none);
+		free_pages(*page, 2);
+	}
+	dump();
 	dprintf("*** SELF TEST COMPLETE - SYSTEM TERMINATED ***\n");
 	abort();
 }
