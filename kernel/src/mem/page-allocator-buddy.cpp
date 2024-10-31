@@ -33,22 +33,20 @@ void page_allocator_buddy::dump() const
 
 void page_allocator_buddy::insert_pages(page &range_start, u64 page_count)
 {
-	dprintf("FUNCTION insert_pages\n");
-	page *slot = &range_start;
-	u64 remaining_pages = page_count;
-	while (remaining_pages > 0) {
+	page *current = &range_start;
+	u64 remianing_pages = page_count;
+	while (remianing_pages > 0) {
 		int order = 0;
-		u64 pfn = slot->pfn();
-		while (block_aligned(order, pfn) && remaining_pages >= pages_per_block(order) && order <= LastOrder) {
+		while (block_aligned(order, current->pfn()) && order <= LastOrder && remianing_pages >= pages_per_block(order)) {
 			order += 1;
 		}
 		order -= 1;
-		insert_free_block(order, *slot);
-		merge_buddies(order, *slot);
-		// Pointer Arithemtic under the hood
-		// Since a page is 2 ^ 12, it'll automatically scale it.
-		slot += pages_per_block(order);
-		remaining_pages -= pages_per_block(order);
+		u64 size = pages_per_block(order);
+		insert_free_block(order, *current);
+		merge_buddies(order, *current);
+
+		current += size;
+		remianing_pages -= size;
 	}
 }
 
@@ -67,47 +65,36 @@ page *page_allocator_buddy::get_block_from_page(int order, page &target)
 
 void page_allocator_buddy::remove_pages(page &range_start, u64 page_count)
 {
-	dprintf("FUNCTION remove_pages\n");
-	u64 pages_remaining = page_count;
 	page *current = &range_start;
-
-	while (pages_remaining > 0) {
+	u64 remaining_pages = page_count;
+	while (remaining_pages > 0) {
 		bool found = false;
 		for (int order = LastOrder; order >= 0; order--) {
 			page *block = get_block_from_page(order, *current);
-			u64 size = pages_per_block(order);
-			if (block == nullptr) {
+			if (!block) {
 				continue;
 			}
 			found = true;
-			// Cases:
-			// Entire Block
-			// Inside the Block
-
-			// Entire Block
-			if (block->pfn() == current->pfn() && pages_remaining >= size) {
-				remove_free_block(order, *current);
+			u64 size = pages_per_block(order);
+			if (block->pfn() == current->pfn() && remaining_pages >= size) {
+				remove_free_block(order, *block);
 				current += size;
-				pages_remaining -= size;
-				break;
-				// Inside the block
+				remaining_pages -= size;
 			} else if (order > 0) {
 				split_block(order, *block);
 			} else {
-				panic("This sould not happen.");
+				panic("This should not happen.");
 			}
 		}
-
 		if (!found) {
 			current += 1;
-			pages_remaining -= 1;
+			remaining_pages -= 1;
 		}
 	}
 }
 
 void page_allocator_buddy::insert_free_block(int order, page &block_start)
 {
-	dprintf("FUNCTION insert_free_block\n");
 	// assert order in range
 	assert(order >= 0 && order <= LastOrder);
 
@@ -128,8 +115,6 @@ void page_allocator_buddy::insert_free_block(int order, page &block_start)
 
 void page_allocator_buddy::remove_free_block(int order, page &block_start)
 {
-	dprintf("FUNCTION remove_free_block\n");
-	dprintf("%d", order);
 	// assert order in range
 	assert(order >= 0 && order <= LastOrder);
 
@@ -151,67 +136,55 @@ void page_allocator_buddy::remove_free_block(int order, page &block_start)
 
 void page_allocator_buddy::split_block(int order, page &block_start)
 {
-	dprintf("FUNCTION split_block\n");
-	assert(order > 0 && order <= LastOrder);
-	// Find the halfway point between the pages and insert them into the previous order
-	page *block_1 = &block_start;
-	page *block_2 = &page::get_from_pfn(block_1->pfn() + (pages_per_block(order - 1)));
-	dprintf("removing order: %d, blockpfn: %d\n", order, block_1->pfn());
-
-	
-	remove_free_block(order, *block_1);
-	insert_free_block(order - 1, *block_1);
-	insert_free_block(order - 1, *block_2);
+	page *other_block = &page::get_from_pfn(block_start.pfn() + (pages_per_block(order) / 2));
+	remove_free_block(order, block_start);
+	insert_free_block(order - 1, block_start);
+	insert_free_block(order - 1, *other_block);
 }
 
 void page_allocator_buddy::merge_buddies(int order, page &buddy)
 {
-	dprintf("FUNCTION merge_buddies\n");
-	int current_order = order;
-	page *current_buddy = &buddy;
-	while (current_order < LastOrder) {
-		u64 target_pfn = current_buddy->pfn() ^ pages_per_block(current_order);
-		page *target = free_list_[current_order];
-		while (target && target->pfn() != target_pfn) {
-			target = target->next_free_;
+	page *buddy_1 = &buddy;
+	page *buddy_2 = nullptr;
+	for (int current_order = order; current_order < LastOrder; current_order++) {
+		u64 buddy_2_pfn = buddy_1->pfn() ^ pages_per_block(current_order);
+		buddy_2 = free_list_[current_order];
+		while (buddy_2 && buddy_2->pfn() != buddy_2_pfn) {
+			buddy_2 = buddy_2->next_free_;
 		}
 
-		if (!target) {
+		if (!buddy_2) {
 			return;
 		}
 
-		remove_free_block(current_order, *current_buddy);
-		remove_free_block(current_order, *target);
+		remove_free_block(current_order, *buddy_1);
+		remove_free_block(current_order, *buddy_2);
 
-		current_buddy = current_buddy->pfn() < target_pfn ? current_buddy : target;
-		insert_free_block(current_order + 1, *current_buddy);
-		current_order += 1;
+		buddy_1 = buddy_1->pfn() < buddy_2_pfn ? buddy_1 : buddy_2;
+		insert_free_block(current_order + 1, *buddy_1);
 	}
 }
 
 page *page_allocator_buddy::allocate_pages(int order, page_allocation_flags flags)
 {
-	dprintf("FUNCTION ::ALLOCATE\n");
 	int current_order = order;
-	page **block = &free_list_[order];
-	while (!block) {
-		block = &free_list_[current_order];
+	page *block = free_list_[current_order];
+	while (!block && current_order <= LastOrder) {
 		current_order += 1;
+		block = free_list_[current_order];
 	}
 
 	while (current_order > order) {
-		split_block(current_order, **block);
-		dprintf("splitting block order %d", order);
+		split_block(current_order, *block);
 		current_order -= 1;
 	}
 
-	remove_free_block(order, **block);
-	return *block;
+	remove_free_block(order, *block);
+	return block;
 }
 
 void page_allocator_buddy::free_pages(page &block_start, int order)
 {
-	dprintf("FUNCTION free_pages\n");
 	insert_free_block(order, block_start);
 	merge_buddies(order, block_start);
 }
