@@ -44,6 +44,9 @@ public:
 
 	virtual fs_node *get_next_child() = 0;
 	virtual int total_children() = 0;
+	virtual string get_name() = 0;
+	virtual fs_node_kind kind() = 0;
+	virtual u64 size() = 0;
 
 protected:
 	virtual fs_node *resolve_child(const string &name) { return nullptr; }

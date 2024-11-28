@@ -20,14 +20,23 @@ object *object::open(const char *path)
 	return new object(result.id);
 }
 
-object *object::opendir(const char *path)
+int object::opendir(const char *path)
 {
 	auto result = syscalls::opendir(path);
 	if (result.code != syscall_result_code::ok) {
-		return nullptr;
+		return -1;
 	}
 
-	return new object(result.id);
+	return result.id;
+}
+
+int object::readdir(u64 obj, char *namebuf, u64 *size, int *type)
+{
+	auto result = syscalls::readdir(obj, namebuf, size, type);
+	if (result.code != syscall_result_code::ok) {
+		return -1;
+	}
+	return result.id;
 }
 
 object::~object() { syscalls::close(handle_); }

@@ -50,6 +50,9 @@ public:
 	virtual fs_node *mkdir(const char *name) override { return nullptr; }
 	virtual fs_node *get_next_child() override { return nullptr; }
 	virtual int total_children() override { return 0; }
+	virtual fs_node_kind kind() override { return fs_node_kind::directory; }
+	virtual string get_name() override { return "root"; }
+	virtual u64 size() override { return 0; }
 
 protected:
 	virtual fs_node *resolve_child(const string &name) override;

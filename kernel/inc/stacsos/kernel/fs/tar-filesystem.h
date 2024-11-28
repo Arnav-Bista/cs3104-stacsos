@@ -73,6 +73,10 @@ public:
 		return children_.at(current_child_++);
 	}
 	virtual int total_children() override { return children_.count(); }
+	virtual fs_node_kind kind() override {
+	}
+	virtual string get_name() override { return "root"; }
+	virtual u64 size() override { return 0; }
 
 protected:
 	virtual fs_node *resolve_child(const string &name) override;

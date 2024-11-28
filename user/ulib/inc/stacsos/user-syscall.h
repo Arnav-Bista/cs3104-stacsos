@@ -44,6 +44,12 @@ public:
 		return fa_result { r.code, r.data };
 	}
 
+	static fa_result readdir(u64 object, void* namebuf, void *size, void* type)
+	{
+		auto r = syscall4(syscall_numbers::readdir, object, (u64)namebuf, (u64)size, (u64)type);
+		return fa_result { r.code, r.data };
+	}
+
 	static syscall_result_code close(u64 id) { return syscall1(syscall_numbers::close, id).code; }
 
 	static rw_result read(u64 object, void *buffer, u64 length)

@@ -19,6 +19,8 @@
 #include <stacsos/kernel/sched/thread.h>
 #include <stacsos/syscalls.h>
 
+#include <stacsos/memops.h>
+
 using namespace stacsos;
 using namespace stacsos::kernel;
 using namespace stacsos::kernel::sched;
@@ -51,7 +53,6 @@ static syscall_result operation_result_to_syscall_result(operation_result &&o)
 
 static syscall_result do_opendir(process &owner, const char *path)
 {
-	dprintf("LAO GAN MA\n");
 	auto node = vfs::get().lookup(path);
 	if (!node) {
 		return syscall_result { syscall_result_code::not_supported, 0 };
@@ -60,13 +61,44 @@ static syscall_result do_opendir(process &owner, const char *path)
 	auto dir = new directory(*node);
 	auto shared = new shared_ptr<fs::directory>(dir);
 	auto dir_obj = object_manager::get().create_dir_object(owner, *shared);
-	dprintf("HAO CHI\n");
+	dprintf("returning %d\n", dir_obj->id());
 	return syscall_result { syscall_result_code::ok, dir_obj->id() };
-
-
 }
 
-static syscall_result do_readdir(process &owner, const char *path) { return syscall_result { syscall_result_code::not_supported, 0 }; }
+static syscall_result do_readdir(process &owner, u64 id, char *namebuf, u64 *size, int *type)
+{
+	dprintf("Getting object");
+	auto dir = object_manager::get().get_object(owner, id);
+
+	if (!dir) {
+		dprintf("Object is null\n");
+		return syscall_result { syscall_result_code::not_found, 1 };
+	}
+
+	dprintf("GOT!");
+	fs_node *dirbuf = nullptr;
+
+	dir->pread(&dirbuf, 0, sizeof(fs_node*));
+	dprintf("GOT dir");
+
+	auto child = dirbuf->get_next_child();
+
+	if (child == nullptr) {
+		return syscall_result { syscall_result_code::not_found, 1 };
+	}
+
+	if (child->kind() == stacsos::kernel::fs::fs_node_kind::directory) {
+		*type = 1;
+	} else {
+		*type = 0;
+	}
+
+	*size = child->size();
+
+	memops::strncpy(namebuf, child->name().c_str(), 255);
+
+	return syscall_result { syscall_result_code::ok, 0 };
+}
 
 extern "C" syscall_result handle_syscall(syscall_numbers index, u64 arg0, u64 arg1, u64 arg2, u64 arg3)
 {
@@ -93,7 +125,7 @@ extern "C" syscall_result handle_syscall(syscall_numbers index, u64 arg0, u64 ar
 	}
 
 	case syscall_numbers::readdir:
-		return do_open(current_process, (const char *)arg0);
+		return do_readdir(current_process, (u64) arg0, (char *)arg1, (u64 *) arg2, (int *)arg3);
 
 	case syscall_numbers::open:
 		return do_open(current_process, (const char *)arg0);

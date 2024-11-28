@@ -7,8 +7,8 @@
  */
 #pragma once
 
-#include <stacsos/kernel/fs/fs-node.h>
 #include <stacsos/kernel/fs/file.h>
+#include <stacsos/kernel/fs/fs-node.h>
 
 namespace stacsos::kernel::dev::storage {
 class block_device;
@@ -50,6 +50,9 @@ public:
 	virtual fs_node *mkdir(const char *name) override { return nullptr; }
 	virtual fs_node *get_next_child() override { return nullptr; }
 	virtual int total_children() override { return 0; }
+	virtual fs_node_kind kind() override { return fs_node_kind::directory; }
+	virtual string get_name() override { return "root"; }
+	virtual u64 size() override { return 0; }
 };
 
 class root_filesystem : public filesystem {
