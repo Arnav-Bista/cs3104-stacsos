@@ -11,6 +11,8 @@
 #include <stacsos/kernel/obj/object.h>
 #include <stacsos/map.h>
 
+#include <stacsos/kernel/fs/directory.h>
+
 namespace stacsos::kernel::sched {
 class process;
 } // namespace stacsos::kernel::sched
@@ -51,6 +53,10 @@ public:
 	shared_ptr<object> create_process_object(sched::process &owner, shared_ptr<sched::process> proc)
 	{
 		return register_object(owner, new process_object(allocate_id(owner), proc));
+	}
+
+	shared_ptr<object> create_dir_object(sched::process &owner, shared_ptr<fs::directory> dir) {
+		return register_object(owner, new dir_object(allocate_id(owner), dir));
 	}
 
 	shared_ptr<object> create_thread_object(sched::process &owner, shared_ptr<sched::thread> thread)

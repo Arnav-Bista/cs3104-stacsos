@@ -14,6 +14,9 @@ public:
 
 	virtual ~object();
 
+
+	static object *opendir(const char *path);
+
 	size_t write(const void *buffer, size_t length);
 	size_t pwrite(const void *buffer, size_t length, size_t offset);
 

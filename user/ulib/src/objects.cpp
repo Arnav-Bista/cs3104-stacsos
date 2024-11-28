@@ -20,6 +20,16 @@ object *object::open(const char *path)
 	return new object(result.id);
 }
 
+object *object::opendir(const char *path)
+{
+	auto result = syscalls::opendir(path);
+	if (result.code != syscall_result_code::ok) {
+		return nullptr;
+	}
+
+	return new object(result.id);
+}
+
 object::~object() { syscalls::close(handle_); }
 
 size_t object::read(void *buffer, size_t length) { return syscalls::read(handle_, buffer, length).length; }

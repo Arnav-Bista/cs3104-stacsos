@@ -48,6 +48,8 @@ public:
 
 	virtual shared_ptr<file> open() override { return nullptr; }
 	virtual fs_node *mkdir(const char *name) override { return nullptr; }
+	virtual fs_node *get_next_child() override { return nullptr; }
+	virtual int total_children() override { return 0; }
 };
 
 class root_filesystem : public filesystem {

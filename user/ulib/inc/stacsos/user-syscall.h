@@ -38,6 +38,12 @@ public:
 		return fa_result { r.code, r.data };
 	}
 
+	static fa_result opendir(const char *path)
+	{
+		auto r = syscall1(syscall_numbers::opendir, (u64)path);
+		return fa_result { r.code, r.data };
+	}
+
 	static syscall_result_code close(u64 id) { return syscall1(syscall_numbers::close, id).code; }
 
 	static rw_result read(u64 object, void *buffer, u64 length)

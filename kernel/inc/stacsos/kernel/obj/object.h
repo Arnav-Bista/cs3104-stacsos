@@ -7,6 +7,7 @@
  */
 #pragma once
 
+#include <stacsos/kernel/fs/directory.h>
 #include <stacsos/kernel/fs/file.h>
 #include <stacsos/kernel/sched/process.h>
 #include <stacsos/kernel/sched/thread.h>
@@ -65,6 +66,17 @@ private:
 	shared_ptr<fs::file> file_;
 };
 
+class dir_object : public object {
+public:
+	dir_object(u64 id, shared_ptr<fs::directory> dir)
+		: object(id)
+		, dir_(dir)
+	{
+	}
+
+private:
+	shared_ptr<fs::directory> dir_;
+};
 class process_object : public object {
 public:
 	process_object(u64 id, shared_ptr<sched::process> proc)

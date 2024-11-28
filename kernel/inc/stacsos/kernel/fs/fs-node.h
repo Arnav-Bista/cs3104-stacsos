@@ -42,6 +42,9 @@ public:
 	virtual shared_ptr<file> open() = 0;
 	virtual fs_node *mkdir(const char *name) = 0;
 
+	virtual fs_node *get_next_child() = 0;
+	virtual int total_children() = 0;
+
 protected:
 	virtual fs_node *resolve_child(const string &name) { return nullptr; }
 

@@ -4,10 +4,10 @@
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -36,22 +36,22 @@
       "-mno-fma4",
       "-fPIE",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/src/printf.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/src/printf.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/src/printf.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/src/printf.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/src/printf.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/src/printf.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/lib",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/lib/src/printf.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/lib/src/printf.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -80,39 +80,39 @@
       "-mno-fma4",
       "-fPIE",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/src/string.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/src/string.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/src/string.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/src/string.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/src/string.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/src/string.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/lib",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/lib/src/string.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/lib/src/string.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/src/fast-memops.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/src/fast-memops.S"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/src/fast-memops.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/src/fast-memops.S"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/src/fast-memops.S",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/src/fast-memops.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/lib",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/lib/src/fast-memops.S",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/lib/src/fast-memops.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -141,27 +141,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/config.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/config.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/config.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/config.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/config.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/config.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/config.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/config.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -190,27 +190,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/fs/tar-filesystem.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/fs/tar-filesystem.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/fs/tar-filesystem.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/fs/tar-filesystem.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/fs/tar-filesystem.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/fs/tar-filesystem.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/fs/tar-filesystem.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/fs/tar-filesystem.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -239,27 +239,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/fs/filesystem.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/fs/filesystem.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/fs/filesystem.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/fs/filesystem.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/fs/filesystem.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/fs/filesystem.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/fs/filesystem.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/fs/filesystem.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -288,27 +288,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/fs/fs-node.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/fs/fs-node.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/fs/fs-node.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/fs/fs-node.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/fs/fs-node.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/fs/fs-node.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/fs/fs-node.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/fs/fs-node.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -337,27 +337,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/fs/vfs.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/fs/vfs.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/fs/vfs.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/fs/vfs.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/fs/vfs.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/fs/vfs.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/fs/vfs.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/fs/vfs.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -386,27 +386,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/core-manager.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/core-manager.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/core-manager.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/core-manager.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/core-manager.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/core-manager.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/core-manager.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/core-manager.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -435,27 +435,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/core.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/core.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/core.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/core.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/core.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/core.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/core.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/core.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -484,27 +484,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/x2apic-timer.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/x2apic-timer.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/x2apic-timer.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/x2apic-timer.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/x2apic-timer.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/x2apic-timer.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/x2apic-timer.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/x2apic-timer.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -533,27 +533,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/irq/irq-manager.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/irq/irq-manager.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/irq/irq-manager.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/irq/irq-manager.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/irq/irq-manager.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/irq/irq-manager.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/irq/irq-manager.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/irq/irq-manager.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -582,27 +582,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/tsc.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/tsc.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/tsc.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/tsc.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/tsc.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/tsc.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/tsc.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/tsc.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -631,27 +631,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/text-console.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/text-console.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/text-console.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/text-console.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/text-console.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/text-console.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/text-console.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/text-console.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -680,27 +680,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/machine-context.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/machine-context.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/machine-context.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/machine-context.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/machine-context.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/machine-context.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/machine-context.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/machine-context.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -729,27 +729,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/dt.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/dt.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/dt.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/dt.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/dt.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/dt.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/dt.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/dt.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -778,27 +778,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/x86-page-table.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/x86-page-table.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/x86-page-table.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/x86-page-table.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/x86-page-table.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/x86-page-table.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/x86-page-table.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/x86-page-table.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -827,27 +827,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/x2apic.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/x2apic.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/x2apic.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/x2apic.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/x2apic.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/x2apic.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/x2apic.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/x2apic.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -876,27 +876,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/bsod.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/bsod.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/bsod.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/bsod.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/bsod.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/bsod.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/bsod.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/bsod.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -925,27 +925,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/x86-platform.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/x86-platform.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/x86-platform.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/x86-platform.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/x86-platform.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/x86-platform.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/x86-platform.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/x86-platform.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -974,27 +974,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/x86-core.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/x86-core.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/x86-core.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/x86-core.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/x86-core.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/x86-core.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/x86-core.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/x86-core.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -1023,27 +1023,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/pit.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/pit.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/pit.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/pit.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/pit.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/pit.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/pit.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/pit.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -1072,27 +1072,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/boot/start.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/boot/start.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/boot/start.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/boot/start.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/boot/start.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/boot/start.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/boot/start.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/boot/start.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -1121,27 +1121,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/ioapic.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/ioapic.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/ioapic.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/ioapic.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/ioapic.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/ioapic.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/ioapic.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/ioapic.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -1170,27 +1170,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/mem/large-object-allocator.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/mem/large-object-allocator.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/mem/large-object-allocator.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/mem/large-object-allocator.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/mem/large-object-allocator.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/mem/large-object-allocator.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/mem/large-object-allocator.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/mem/large-object-allocator.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -1219,27 +1219,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/mem/address-space-region.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/mem/address-space-region.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/mem/address-space-region.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/mem/address-space-region.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/mem/address-space-region.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/mem/address-space-region.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/mem/address-space-region.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/mem/address-space-region.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -1268,27 +1268,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/mem/page-allocator.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/mem/page-allocator.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/mem/page-allocator.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/mem/page-allocator.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/mem/page-allocator.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/mem/page-allocator.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/mem/page-allocator.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/mem/page-allocator.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -1317,27 +1317,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/mem/new.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/mem/new.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/mem/new.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/mem/new.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/mem/new.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/mem/new.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/mem/new.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/mem/new.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -1366,27 +1366,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/mem/page-table-allocator.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/mem/page-table-allocator.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/mem/page-table-allocator.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/mem/page-table-allocator.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/mem/page-table-allocator.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/mem/page-table-allocator.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/mem/page-table-allocator.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/mem/page-table-allocator.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -1415,27 +1415,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/mem/address-space.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/mem/address-space.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/mem/address-space.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/mem/address-space.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/mem/address-space.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/mem/address-space.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/mem/address-space.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/mem/address-space.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -1464,27 +1464,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/mem/object-allocator.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/mem/object-allocator.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/mem/object-allocator.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/mem/object-allocator.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/mem/object-allocator.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/mem/object-allocator.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/mem/object-allocator.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/mem/object-allocator.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -1513,27 +1513,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/mem/page-allocator-linear.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/mem/page-allocator-linear.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/mem/page-allocator-linear.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/mem/page-allocator-linear.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/mem/page-allocator-linear.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/mem/page-allocator-linear.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/mem/page-allocator-linear.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/mem/page-allocator-linear.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -1562,27 +1562,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/mem/slab-cache.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/mem/slab-cache.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/mem/slab-cache.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/mem/slab-cache.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/mem/slab-cache.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/mem/slab-cache.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/mem/slab-cache.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/mem/slab-cache.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -1611,27 +1611,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/mem/memory-manager.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/mem/memory-manager.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/mem/memory-manager.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/mem/memory-manager.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/mem/memory-manager.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/mem/memory-manager.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/mem/memory-manager.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/mem/memory-manager.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -1660,27 +1660,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/mem/page-allocator-buddy.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/mem/page-allocator-buddy.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/mem/page-allocator-buddy.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/mem/page-allocator-buddy.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/mem/page-allocator-buddy.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/mem/page-allocator-buddy.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/mem/page-allocator-buddy.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/mem/page-allocator-buddy.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -1709,27 +1709,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/tty/terminal.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/tty/terminal.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/tty/terminal.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/tty/terminal.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/tty/terminal.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/tty/terminal.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/tty/terminal.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/tty/terminal.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -1758,27 +1758,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/input/keyboard.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/input/keyboard.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/input/keyboard.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/input/keyboard.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/input/keyboard.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/input/keyboard.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/input/keyboard.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/input/keyboard.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -1807,27 +1807,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/device-manager.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/device-manager.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/device-manager.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/device-manager.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/device-manager.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/device-manager.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/device-manager.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/device-manager.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -1856,27 +1856,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/gfx/qemu-stdvga.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/gfx/qemu-stdvga.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/gfx/qemu-stdvga.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/gfx/qemu-stdvga.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/gfx/qemu-stdvga.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/gfx/qemu-stdvga.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/gfx/qemu-stdvga.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/gfx/qemu-stdvga.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -1905,27 +1905,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/gfx/graphics.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/gfx/graphics.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/gfx/graphics.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/gfx/graphics.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/gfx/graphics.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/gfx/graphics.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/gfx/graphics.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/gfx/graphics.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -1954,27 +1954,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/pci/pci-express-bus.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/pci/pci-express-bus.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/pci/pci-express-bus.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/pci/pci-express-bus.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/pci/pci-express-bus.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/pci/pci-express-bus.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/pci/pci-express-bus.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/pci/pci-express-bus.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -2003,27 +2003,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/pci/pci-device.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/pci/pci-device.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/pci/pci-device.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/pci/pci-device.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/pci/pci-device.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/pci/pci-device.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/pci/pci-device.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/pci/pci-device.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -2052,27 +2052,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/acpi/acpi.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/acpi/acpi.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/acpi/acpi.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/acpi/acpi.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/acpi/acpi.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/acpi/acpi.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/acpi/acpi.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/acpi/acpi.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -2101,27 +2101,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/console/virtual-console.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/console/virtual-console.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/console/virtual-console.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/console/virtual-console.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/console/virtual-console.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/console/virtual-console.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/console/virtual-console.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/console/virtual-console.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -2150,27 +2150,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/console/physical-console.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/console/physical-console.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/console/physical-console.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/console/physical-console.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/console/physical-console.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/console/physical-console.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/console/physical-console.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/console/physical-console.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -2199,27 +2199,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/device-class.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/device-class.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/device-class.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/device-class.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/device-class.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/device-class.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/device-class.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/device-class.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -2248,27 +2248,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/devfs.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/devfs.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/devfs.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/devfs.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/devfs.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/devfs.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/devfs.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/devfs.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -2297,27 +2297,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/storage/ahci-storage-device.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/storage/ahci-storage-device.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/storage/ahci-storage-device.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/storage/ahci-storage-device.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/storage/ahci-storage-device.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/storage/ahci-storage-device.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/storage/ahci-storage-device.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/storage/ahci-storage-device.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -2346,27 +2346,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/storage/block-device.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/storage/block-device.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/storage/block-device.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/storage/block-device.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/storage/block-device.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/storage/block-device.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/storage/block-device.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/storage/block-device.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -2395,27 +2395,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/storage/ahci-controller.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/storage/ahci-controller.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/storage/ahci-controller.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/storage/ahci-controller.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/storage/ahci-controller.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/dev/storage/ahci-controller.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/storage/ahci-controller.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/dev/storage/ahci-controller.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -2444,27 +2444,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/sched/process-manager.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/sched/process-manager.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/sched/process-manager.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/sched/process-manager.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/sched/process-manager.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/sched/process-manager.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/sched/process-manager.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/sched/process-manager.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -2493,27 +2493,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/sched/sleeper.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/sched/sleeper.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/sched/sleeper.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/sched/sleeper.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/sched/sleeper.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/sched/sleeper.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/sched/sleeper.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/sched/sleeper.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -2542,27 +2542,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/sched/scheduler.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/sched/scheduler.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/sched/scheduler.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/sched/scheduler.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/sched/scheduler.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/sched/scheduler.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/sched/scheduler.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/sched/scheduler.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -2591,27 +2591,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/sched/process.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/sched/process.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/sched/process.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/sched/process.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/sched/process.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/sched/process.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/sched/process.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/sched/process.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -2640,27 +2640,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/sched/alg/sfs.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/sched/alg/sfs.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/sched/alg/sfs.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/sched/alg/sfs.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/sched/alg/sfs.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/sched/alg/sfs.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/sched/alg/sfs.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/sched/alg/sfs.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -2689,27 +2689,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/sched/alg/rr.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/sched/alg/rr.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/sched/alg/rr.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/sched/alg/rr.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/sched/alg/rr.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/sched/alg/rr.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/sched/alg/rr.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/sched/alg/rr.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -2738,27 +2738,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/sched/thread.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/sched/thread.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/sched/thread.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/sched/thread.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/sched/thread.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/sched/thread.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/sched/thread.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/sched/thread.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -2787,27 +2787,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/sched/event.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/sched/event.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/sched/event.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/sched/event.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/sched/event.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/sched/event.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/sched/event.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/sched/event.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -2836,27 +2836,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/syscall.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/syscall.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/syscall.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/syscall.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/syscall.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/syscall.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/syscall.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/syscall.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -2885,27 +2885,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/main.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/main.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/main.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/main.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/main.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/main.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/main.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/main.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -2934,27 +2934,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/lock.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/lock.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/lock.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/lock.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/lock.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/lock.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/lock.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/lock.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -2983,27 +2983,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/support/guard.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/support/guard.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/support/guard.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/support/guard.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/support/guard.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/support/guard.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/support/guard.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/support/guard.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -3032,27 +3032,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/debug.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/debug.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/debug.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/debug.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/debug.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/debug.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/debug.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/debug.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -3081,27 +3081,27 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/obj/object.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/obj/object.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/obj/object.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/obj/object.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/obj/object.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/obj/object.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/obj/object.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/obj/object.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/inc/stacsos/kernel/kernel-global.h",
       "-mcmodel=kernel",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -3130,12 +3130,12 @@
       "-mno-sse4a",
       "-mno-fma4",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/obj/object-manager.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/obj/object-manager.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/obj/object-manager.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/obj/object-manager.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/obj/object-manager.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/obj/object-manager.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/obj/object-manager.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/obj/object-manager.o"
   },
   {
     "arguments": [
@@ -3147,12 +3147,12 @@
       "-ffreestanding",
       "-fno-builtin",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/irq/irq-traps.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/irq/irq-traps.S"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/irq/irq-traps.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/irq/irq-traps.S"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/irq/irq-traps.S",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/irq/irq-traps.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/irq/irq-traps.S",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/irq/irq-traps.o"
   },
   {
     "arguments": [
@@ -3164,12 +3164,12 @@
       "-ffreestanding",
       "-fno-builtin",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/spinlock.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/spinlock.S"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/spinlock.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/spinlock.S"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/spinlock.S",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/spinlock.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/spinlock.S",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/spinlock.o"
   },
   {
     "arguments": [
@@ -3181,12 +3181,12 @@
       "-ffreestanding",
       "-fno-builtin",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/syscall.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/syscall.S"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/syscall.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/syscall.S"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/syscall.S",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/syscall.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/syscall.S",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/syscall.o"
   },
   {
     "arguments": [
@@ -3198,12 +3198,12 @@
       "-ffreestanding",
       "-fno-builtin",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/boot/start32.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/boot/start32.S"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/boot/start32.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/boot/start32.S"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/boot/start32.S",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/boot/start32.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/boot/start32.S",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/boot/start32.o"
   },
   {
     "arguments": [
@@ -3215,12 +3215,12 @@
       "-ffreestanding",
       "-fno-builtin",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/boot/multiboot.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/boot/multiboot.S"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/boot/multiboot.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/boot/multiboot.S"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/boot/multiboot.S",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/boot/multiboot.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/boot/multiboot.S",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/boot/multiboot.o"
   },
   {
     "arguments": [
@@ -3232,24 +3232,24 @@
       "-ffreestanding",
       "-fno-builtin",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/boot/start64.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/boot/start64.S"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/boot/start64.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/boot/start64.S"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/boot/start64.S",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/kernel/src/arch/x86/boot/start64.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/boot/start64.S",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/kernel/src/arch/x86/boot/start64.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -3266,24 +3266,24 @@
       "-fcheck-new",
       "-fPIE",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/src/console.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/src/console.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/src/console.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/src/console.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/src/console.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/src/console.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/src/console.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/src/console.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -3300,24 +3300,24 @@
       "-fcheck-new",
       "-fPIE",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/src/support.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/src/support.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/src/support.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/src/support.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/src/support.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/src/support.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/src/support.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/src/support.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -3334,24 +3334,24 @@
       "-fcheck-new",
       "-fPIE",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/src/mem.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/src/mem.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/src/mem.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/src/mem.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/src/mem.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/src/mem.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/src/mem.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/src/mem.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -3368,24 +3368,24 @@
       "-fcheck-new",
       "-fPIE",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/src/entry.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/src/entry.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/src/entry.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/src/entry.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/src/entry.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/src/entry.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/src/entry.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/src/entry.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -3402,24 +3402,24 @@
       "-fcheck-new",
       "-fPIE",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/src/process.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/src/process.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/src/process.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/src/process.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/src/process.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/src/process.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/src/process.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/src/process.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -3436,24 +3436,24 @@
       "-fcheck-new",
       "-fPIE",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/src/threads.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/src/threads.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/src/threads.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/src/threads.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/src/threads.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/src/threads.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/src/threads.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/src/threads.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -3470,24 +3470,24 @@
       "-fcheck-new",
       "-fPIE",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/src/guard.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/src/guard.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/src/guard.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/src/guard.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/src/guard.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/src/guard.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/src/guard.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/src/guard.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -3504,38 +3504,38 @@
       "-fcheck-new",
       "-fPIE",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/src/objects.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/src/objects.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/src/objects.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/src/objects.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/src/objects.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/src/objects.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/src/objects.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/src/objects.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/src/start.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/src/start.S"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/src/start.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/src/start.S"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/src/start.S",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/src/start.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/src/start.S",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/src/start.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/init/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/init/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -3552,26 +3552,26 @@
       "-fcheck-new",
       "-fPIE",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/init/src/main.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/init/src/main.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/init/src/main.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/init/src/main.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/init",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/init/src/main.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/init/src/main.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/user/init",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/user/init/src/main.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/user/init/src/main.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/shell/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/shell/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -3588,26 +3588,26 @@
       "-fcheck-new",
       "-fPIE",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/shell/src/main.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/shell/src/main.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/shell/src/main.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/shell/src/main.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/shell",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/shell/src/main.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/shell/src/main.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/user/shell",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/user/shell/src/main.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/user/shell/src/main.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/sched-test/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/sched-test/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -3624,26 +3624,26 @@
       "-fcheck-new",
       "-fPIE",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/sched-test/src/main.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/sched-test/src/main.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/sched-test/src/main.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/sched-test/src/main.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/sched-test",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/sched-test/src/main.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/sched-test/src/main.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/user/sched-test",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/user/sched-test/src/main.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/user/sched-test/src/main.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/mandelbrot/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/mandelbrot/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -3660,26 +3660,26 @@
       "-fcheck-new",
       "-fPIE",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/mandelbrot/src/main.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/mandelbrot/src/main.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/mandelbrot/src/main.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/mandelbrot/src/main.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/mandelbrot",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/mandelbrot/src/main.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/mandelbrot/src/main.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/user/mandelbrot",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/user/mandelbrot/src/main.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/user/mandelbrot/src/main.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/cat/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/cat/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -3696,26 +3696,26 @@
       "-fcheck-new",
       "-fPIE",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/cat/src/main.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/cat/src/main.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/cat/src/main.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/cat/src/main.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/cat",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/cat/src/main.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/cat/src/main.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/user/cat",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/user/cat/src/main.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/user/cat/src/main.o"
   },
   {
     "arguments": [
       "/usr/bin/g++",
       "-c",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/poweroff/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/poweroff/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/ulib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/ulib/inc",
       "-I",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc",
       "-nostdinc",
       "-include",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/lib/inc/global.h",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/lib/inc/global.h",
       "-std=gnu++23",
       "-O3",
       "-Wall",
@@ -3732,11 +3732,11 @@
       "-fcheck-new",
       "-fPIE",
       "-o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/poweroff/src/main.o",
-      "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/poweroff/src/main.cpp"
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/poweroff/src/main.o",
+      "/home/ab556/Documents/CS3104/ssh-stacsos/user/poweroff/src/main.cpp"
     ],
-    "directory": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/poweroff",
-    "file": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/poweroff/src/main.cpp",
-    "output": "/home/Arnav/Documents/UStA/CS3104/Coursework/stacsos/user/poweroff/src/main.o"
+    "directory": "/home/ab556/Documents/CS3104/ssh-stacsos/user/poweroff",
+    "file": "/home/ab556/Documents/CS3104/ssh-stacsos/user/poweroff/src/main.cpp",
+    "output": "/home/ab556/Documents/CS3104/ssh-stacsos/user/poweroff/src/main.o"
   }
 ]

@@ -8,6 +8,7 @@
 #include <stacsos/kernel/arch/x86/cregs.h>
 #include <stacsos/kernel/arch/x86/pio.h>
 #include <stacsos/kernel/debug.h>
+#include <stacsos/kernel/fs/directory.h>
 #include <stacsos/kernel/fs/vfs.h>
 #include <stacsos/kernel/mem/address-space.h>
 #include <stacsos/kernel/obj/object-manager.h>
@@ -48,6 +49,25 @@ static syscall_result operation_result_to_syscall_result(operation_result &&o)
 	return syscall_result { rc, o.data };
 }
 
+static syscall_result do_opendir(process &owner, const char *path)
+{
+	dprintf("LAO GAN MA\n");
+	auto node = vfs::get().lookup(path);
+	if (!node) {
+		return syscall_result { syscall_result_code::not_supported, 0 };
+	}
+
+	auto dir = new directory(*node);
+	auto shared = new shared_ptr<fs::directory>(dir);
+	auto dir_obj = object_manager::get().create_dir_object(owner, *shared);
+	dprintf("HAO CHI\n");
+	return syscall_result { syscall_result_code::ok, dir_obj->id() };
+
+
+}
+
+static syscall_result do_readdir(process &owner, const char *path) { return syscall_result { syscall_result_code::not_supported, 0 }; }
+
 extern "C" syscall_result handle_syscall(syscall_numbers index, u64 arg0, u64 arg1, u64 arg2, u64 arg3)
 {
 	auto &current_thread = thread::current();
@@ -67,6 +87,13 @@ extern "C" syscall_result handle_syscall(syscall_numbers index, u64 arg0, u64 ar
 	case syscall_numbers::set_gs:
 		stacsos::kernel::arch::x86::gsbase::write(arg0);
 		return syscall_result { syscall_result_code::ok, 0 };
+
+	case syscall_numbers::opendir: {
+		return do_opendir(current_process, (const char *)arg0);
+	}
+
+	case syscall_numbers::readdir:
+		return do_open(current_process, (const char *)arg0);
 
 	case syscall_numbers::open:
 		return do_open(current_process, (const char *)arg0);
