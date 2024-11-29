@@ -1,6 +1,7 @@
 #pragma once
 
 #include <stacsos/kernel/fs/fs-node.h>
+#include <stacsos/kernel/debug.h>
 
 namespace stacsos::kernel::fs {
 
@@ -10,13 +11,6 @@ public:
 		: node_(node)
 	{
 	}
-
-	virtual size_t pread(void *buffer, size_t offset, size_t length)
-	{
-		fs_node **pointer = (fs_node **)buffer;
-		*pointer = &node_;
-		return sizeof(fs_node*);
-	};
 
 	fs_node &get_node() { return node_; }
 

@@ -8,6 +8,7 @@
 #pragma once
 
 #include <stacsos/syscalls.h>
+#include <stacsos/printf.h>
 
 namespace stacsos {
 struct rw_result {
@@ -44,9 +45,9 @@ public:
 		return fa_result { r.code, r.data };
 	}
 
-	static fa_result readdir(u64 object, void* namebuf, void *size, void* type)
+	static fa_result readdir(u64 object, const void * dirdata )
 	{
-		auto r = syscall4(syscall_numbers::readdir, object, (u64)namebuf, (u64)size, (u64)type);
+		auto r = syscall2(syscall_numbers::readdir, object, (u64) dirdata);
 		return fa_result { r.code, r.data };
 	}
 

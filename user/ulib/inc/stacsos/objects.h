@@ -16,7 +16,8 @@ public:
 
 
 	static int opendir(const char *path);
-	static int readdir(u64 obj, char *namebuf, u64 *size, int *type);
+	static int readdir(u64 obj, const void * dirdata);
+	static int close(u64 obj);
 
 	size_t write(const void *buffer, size_t length);
 	size_t pwrite(const void *buffer, size_t length, size_t offset);

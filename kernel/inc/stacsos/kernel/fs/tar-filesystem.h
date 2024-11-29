@@ -58,6 +58,7 @@ public:
 		: fs_node(fs, parent, kind, name)
 		, data_start_(data_start)
 		, data_size_(data_size)
+		, current_child_(1)
 	{
 	}
 
@@ -66,17 +67,15 @@ public:
 
 	virtual fs_node *get_next_child() override
 	{
-		if (current_child_ > children_.count()) {
+		if (current_child_ >= children_.count()) {
+			current_child_ = 1;
 			return nullptr;
 		}
 
 		return children_.at(current_child_++);
 	}
 	virtual int total_children() override { return children_.count(); }
-	virtual fs_node_kind kind() override {
-	}
-	virtual string get_name() override { return "root"; }
-	virtual u64 size() override { return 0; }
+	virtual u64 size() override { return data_size_; }
 
 protected:
 	virtual fs_node *resolve_child(const string &name) override;
@@ -94,7 +93,7 @@ private:
 	list<tarfs_node *> children_;
 	u64 data_start_, data_size_;
 
-	int current_child_ = 0;
+	int current_child_;
 };
 
 class tar_filesystem : public physical_filesystem {

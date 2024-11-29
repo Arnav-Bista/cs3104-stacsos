@@ -43,7 +43,10 @@ public:
 		return optr;
 	}
 
-	void free_object(sched::process &owner, u64 id) { }
+	void free_object(sched::process &owner, u64 id) {
+		// Where?
+		// Time for memory leaks
+	}
 
 	shared_ptr<object> create_file_object(sched::process &owner, shared_ptr<fs::file> file)
 	{

@@ -7,6 +7,7 @@
  */
 #include <stacsos/objects.h>
 #include <stacsos/user-syscall.h>
+#include <stacsos/console.h>
 
 using namespace stacsos;
 
@@ -26,17 +27,21 @@ int object::opendir(const char *path)
 	if (result.code != syscall_result_code::ok) {
 		return -1;
 	}
-
 	return result.id;
 }
 
-int object::readdir(u64 obj, char *namebuf, u64 *size, int *type)
+int object::readdir(u64 obj, const void * dirdata)
 {
-	auto result = syscalls::readdir(obj, namebuf, size, type);
+	auto result = syscalls::readdir(obj, dirdata);
 	if (result.code != syscall_result_code::ok) {
 		return -1;
 	}
 	return result.id;
+}
+
+int object::close(u64 obj) {
+	auto result = syscalls::close(obj);
+	return (int) result;
 }
 
 object::~object() { syscalls::close(handle_); }

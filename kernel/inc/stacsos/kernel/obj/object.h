@@ -74,6 +74,13 @@ public:
 	{
 	}
 
+	virtual operation_result pread(void *buffer, size_t offset, size_t length)
+	{
+		fs::fs_node **pointer = (fs::fs_node **)buffer;
+		*pointer = &dir_->get_node();
+		return operation_result::ok(0);
+	};
+
 private:
 	shared_ptr<fs::directory> dir_;
 };
