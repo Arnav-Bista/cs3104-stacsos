@@ -32,8 +32,7 @@ void ls(const char *path, int options)
 		if (options & OPT_LONG) {
 			if (directory.type == 1) {
 				console::get().writef("[D] %s\n", directory.name);
-			}
-			else {
+			} else {
 				console::get().writef("[F] %s    %d\n", directory.name, directory.size);
 			}
 		} else {
@@ -53,7 +52,7 @@ void ls(const char *path, int options)
 				new_name = *filename_string + "/" + *new_file;
 			}
 			// recurse!
-			// Perhaps doing this iteratively would be better, 
+			// Perhaps doing this iteratively would be better,
 			// but then I would need to store the list of directories
 			ls(new_name.c_str(), options);
 		}
