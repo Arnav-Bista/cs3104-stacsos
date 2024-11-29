@@ -19,10 +19,11 @@ void vfs::init()
 fs_node *vfs::lookup(const char *path)
 {
 	// dprintf("vfs: lookup '%s'\n", path);
-
-	// All paths MUST be absolute.  To avoid any confusion.
 	if (path[0] != '/') {
-		return nullptr;
+		// Probably a better way to do string concat...
+		string *pre = new string("usr/");
+		auto total = *pre + *(new string(path));
+		return rootfs_.root().lookup(total.c_str());
 	}
 
 	return rootfs_.root().lookup(&path[1]);
