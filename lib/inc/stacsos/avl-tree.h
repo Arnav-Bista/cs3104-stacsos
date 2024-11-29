@@ -153,6 +153,18 @@ public:
 	const_iterator begin() const { return const_iterator(root_); }
 	const_iterator end() const { return const_iterator(nullptr); }
 
+	// void remove(const K &key) {
+	// 	node *target = try_get_node(key);
+	// 	if (!target) {
+	// 		return;
+	// 	}
+	//
+	// 	// Case 1: target has no children
+	// 	if (target->left() == nullptr && target->right() == nullptr) {
+	// 	}
+	// }
+
+
 private:
 	node *root_;
 
@@ -221,5 +233,22 @@ private:
 			return balance(ref);
 		}
 	}
+	
+	node *try_get_node(const K &key) {
+		node *ref = root_;
+		while (ref) {
+			if (ref->key() == key) {
+				return ref;
+			}
+
+			if (key < ref->key()) {
+				ref = ref->left();
+			} else {
+				ref = ref->right();
+			}
+		}
+		return nullptr;
+	}
+
 };
 } // namespace stacsos

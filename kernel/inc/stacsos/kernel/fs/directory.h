@@ -12,6 +12,8 @@ public:
 	{
 	}
 
+	~directory() {}
+
 	fs_node &get_node() { return node_; }
 
 private:
