@@ -8,12 +8,12 @@
 
 using namespace stacsos;
 
-const int OPT_LONG = 1 << 0;    // -l flag
-const int OPT_RECURSIVE = 1 << 1;  // -r flag
-const int OPT_SORTED = 1 << 2;   // -s flag
+const int OPT_LONG = 1 << 0; // -l flag
+const int OPT_RECURSIVE = 1 << 1; // -r flag
+const int OPT_SORTED = 1 << 2; // -s flag
 
-
-void ls(const char* path, int options) {
+void ls(const char *path, int options)
+{
 	if (!path) {
 		console::get().write("error: usage: ls <path>\n");
 		return;
@@ -25,20 +25,24 @@ void ls(const char* path, int options) {
 		return;
 	}
 
+	dirdata directory;
 
-	dirdata dirr;
-
-	auto dir_entry = object::readdir((u64)dir, &dirr);
+	auto dir_entry = object::readdir((u64)dir, &directory);
 	while (dir_entry != -1) {
 		if (options & OPT_LONG) {
-			console::get().writef("[%s] %s    %d\n", dirr.type == 1 ? "D" : "F", dirr.name, dirr.size);
+			if (directory.type == 1) {
+				console::get().writef("[D] %s\n", directory.name);
+			}
+			else {
+				console::get().writef("[F] %s    %d\n", directory.name, directory.size);
+			}
 		} else {
-			console::get().writef("%s\n", dirr.name);
+			console::get().writef("%s\n", directory.name);
 		}
 
-		if (dirr.type == 1 && (options & OPT_RECURSIVE)) {
+		if (directory.type == 1 && (options & OPT_RECURSIVE)) {
 			string *filename_string = new string(path);
-			string *new_file = new string(dirr.name);
+			string *new_file = new string(directory.name);
 			string new_name;
 			// Special case for root directory
 			if (filename_string->length() == 1 && (*filename_string)[0] == '/') {
@@ -48,14 +52,16 @@ void ls(const char* path, int options) {
 			} else {
 				new_name = *filename_string + "/" + *new_file;
 			}
+			// recurse!
+			// Perhaps doing this iteratively would be better, 
+			// but then I would need to store the list of directories
 			ls(new_name.c_str(), options);
 		}
 		// flush name
-		memops::memset(dirr.name, 0, 255);
-		dir_entry = object::readdir((u64)dir, &dirr);
+		memops::memset(directory.name, 0, 255);
+		dir_entry = object::readdir((u64)dir, &directory);
 	}
 }
-
 
 int main(const char *cmdline)
 {
@@ -86,12 +92,8 @@ int main(const char *cmdline)
 			filename = chars;
 		}
 	}
-	
-	
-	
+
 	ls(filename, options);
 
 	return 0;
 }
-
-
